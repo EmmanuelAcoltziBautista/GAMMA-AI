@@ -1,0 +1,75 @@
+/*
+Created-By: Emmanuel Acoltzi Bautista
+Date: 12-08-2024
+email: basedeemma@gmail.com
+*/
+.gradient {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(#879eae, #ffe4d8);
+}
+
+.container {
+    font-family: Roboto;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #ffffff;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+a {
+    Color: #000;
+    text-decoration: none;
+
+}
+
+h2 span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: #ffffff;
+    border-left: 1px solid #000;
+
+    animation: Machine 5s infinite steps(5);
+
+
+}
+
+@keyframes Machine {
+    from {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+input {
+    font-size: 20px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.button {
+    background: #000000;
+    color: #ffffff;
+    font-family: Roboto;
+    border-radius: 30px;
+    border: 1px solid #000000;
+    margin: 2px ;
+    padding: 10px;
+}
+.button:hover{
+    transition: 0.5s;
+    background: #4b4b4b;
+    border: 1px solid #4b4b4b;
+}
