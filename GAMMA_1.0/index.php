@@ -57,6 +57,7 @@ echo $data1;
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./js/BRAIN.js"></script>
     <script src="./js/Color.js"></script>
+    <link rel="icon" href="./images/icon.png">
     <script>
         var Red;
         var Green;
